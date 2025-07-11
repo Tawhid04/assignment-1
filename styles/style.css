@@ -82,24 +82,34 @@ body{
 /* Stats Section */
 .stats-section{
     background-color:#4E47FF;
-    padding:50px 142px;
-    border-radius:24px;
-    margin: 60px 0;
+    padding:50px 142px;   
     text-align: center;
 }
-.stats-section{
-    font-size: 38px;
+.stats-container{
+   max-width: 1000px;
+   margin: 0 auto;
+}
+.stats-heading{
+    font-size:38px;
+    font-weight:800;
     margin-bottom:40px;
 }
-.stats-grid{
-    display:flex;
+.stats-box{
+    display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    gap:160px;
+    align-items: center;
+    background-color: #e8e8ff;
+    padding:50px;
+    border-radius:24px;
 }
-.stat-item h2{
-      font-size:80px;
-      color:#4E47FF;
+.stat h3{
+    font-size:80px;
+    color: #4E47FF;
+    margin-bottom:50px;
+}
+.stat p{
+    font-size:20px;
+    color:#000000
 }
 
 /* Testimonials Section */
@@ -177,4 +187,74 @@ body{
     max-width: 100%;
     border-radius:48px;
     box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+.contact-section{
+    padding:90px 150px 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+.contact-container{
+    max-width:1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 110px;
+    border: 2px solid #ccc;
+    padding:40px;
+    background-color: #fff;
+}
+.contact-text h1{
+    font-size:97px;
+    margin:0;
+}
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    width:450;
+}
+.contact-form input, contact-form textarea{
+    padding:10px;
+    border: 1px solid #ccc;
+    font-size:20px;
+    border-radius: 20px;
+}
+.contact-form button{
+    padding:20px;
+     background-color: #3b00ff;
+    color: white;
+    border: none;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* Footer Section */
+.footer{
+    text-align:center;
+    padding:40px 20px;
+    background-color:#8987A1;
+}
+.footer .lgo{
+    color:#3b00ff;
+    font-size:100px;
+    margin-bottom:10px;
+}
+.footer-description{
+    max-width:600px;
+    margin:0 auto 20px;
+    font-size:50px;
+    color: #555;
+}
+.footer-nav a{
+    margin: 0 10px;
+    color: #333;
+    text-decoration:none;
+    font-weight:900px;
+}
+.footer-nav a:hover{
+    text-decoration: underline;
 }
