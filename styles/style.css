@@ -28,9 +28,6 @@ body{
 }
 
 /* Button Styles */
-.sign-up-btn{
-          padding: 62px 185px; 
-}
 .btn-primary{
     background-color:#4E47FF;
     color: white;
