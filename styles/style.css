@@ -104,10 +104,77 @@ body{
 
 /* Testimonials Section */
 .testimonials{
-    padding:130px 145px 137px 150px;
+    padding:60px 20px;
     text-align: center;
 }
 .testimonials h3{
     font-size:50px;
-    margin-bottom:140px ;
+    margin-bottom:140px;
+}
+.testimonial-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px
+}
+.card{
+    background-color:#FFFFFF;
+    padding:24px;
+    border: 1px solid #eee;
+    border-radius: 14px;
+    width:365px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.04);
+}
+.stars{
+    color:#facc15;
+    font-size:18px;
+    margin-bottom:24px;
+}
+.card h4{
+    margin-bottom:8px;
+    font-size: 2px;
+}
+.review-text{
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-bottom:24px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.testimonials-img{
+   width:40px;
+   height:40px;
+   border-radius:50%;
+}
+.card small{
+    color:#757575;
+    font-size:13px;
+}
+
+/* Call to Action (CTA) Section */
+.cta{
+    text-align: center;
+    padding:137px 148px 160px 150px;
+}
+.cta h2{
+    font-size: 50px;
+    margin-bottom:20px ;
+}
+.cta-btn{
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding:12px 36px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom:20px;
+}
+.cta-img img{
+    max-width: 100%;
+    border-radius:48px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
 }
