@@ -1,0 +1,85 @@
+/* Navbar styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
+}
+.bg{
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0;
+}
+.navbar .logo{
+    font-size: 34px;
+    font-weight:900;
+    color: #4E47FF;
+    padding:50px 150px;
+}
+
+/* Button Styles */
+.sign-up-btn{
+          padding: 62px 185px; 
+}
+.btn-primary{
+    background-color:#4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding:309px 265px 152px;   
+}
+.hero h1{
+    font-size: 48px;
+    margin-bottom:20px;
+    font-weight:bolder;
+}
+
+/* preview section */
+.preview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:115px 160px 115px 140px;
+    gap:220px;
+}
+.preview-left{
+    flex: 1 1 300px;
+}
+.preview-left h2{
+    font-size:42px;
+    margin-bottom:23px;
+}
+.preview-left p{
+    color: #252432;
+    margin-bottom:24px;
+    font-size:24 ;
+}
+.preview-right{
+    flex: 1 1 300px;
+    text-align: center;
+}
+.preview-right img{
+    max-width:100%;
+    border-radius:48px;
+}
+
+/*  */
