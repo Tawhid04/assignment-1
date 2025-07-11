@@ -79,4 +79,35 @@ body{
     border-radius:48px;
 }
 
-/*  */
+/* Stats Section */
+.stats-section{
+    background-color:#4E47FF;
+    padding:50px 142px;
+    border-radius:24px;
+    margin: 60px 0;
+    text-align: center;
+}
+.stats-section{
+    font-size: 38px;
+    margin-bottom:40px;
+}
+.stats-grid{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:160px;
+}
+.stat-item h2{
+      font-size:80px;
+      color:#4E47FF;
+}
+
+/* Testimonials Section */
+.testimonials{
+    padding:130px 145px 137px 150px;
+    text-align: center;
+}
+.testimonials h3{
+    font-size:50px;
+    margin-bottom:140px ;
+}
